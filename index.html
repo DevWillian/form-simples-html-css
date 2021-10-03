@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h1>Um form feito observando 
+        <br/>
+         os outros desenvolvedores</h1>
+      <p>
+        Veja como desenvolvedores experientes resolvem problemas em tempo real. Assistir a tutoriais com script é ótimo,
+        mas entender como os desenvolvedores pensam é inestimável.
+      </p>
+    </div>
+    <div>
+      <div class="box box-blue">
+        <p>
+          <strong>Teste grátis por 7 dias</strong> 
+          depois $ 20 / mês.
+        </p>
+      </div>
+
+      <form class="box" id="form">
+        <div class="form-control">
+          <input type="text" id="firstname" placeholder="Nome">
+          <img src="./images/icon-error.svg" alt="error-icon">
+          <small></small>
+        </div>
+        <div class="form-control">
+          <input type="text" id="lastname" placeholder="Sobrenome">
+          <img src="./images/icon-error.svg" alt="error-icon">
+          <small></small>
+        </div>
+        <div class="form-control">
+          <input type="email" id="email" placeholder="E-mail">
+          <img src="./images/icon-error.svg" alt="error-icon">
+          <small></small>
+          
+        </div>
+        <div class="form-control">
+          <input type="password" id="password" placeholder="Senha">
+          <img src="./images/icon-error.svg" alt="error-icon">
+          <small></small>
+        </div>
+
+        <button>Clique para avaliação gratuita</button>
+        <small>By clicking the button, you are agreeing to our <a href="">Terms and Services</a>
+        
+      </form>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
